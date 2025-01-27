@@ -1,0 +1,52 @@
+body{
+  background: rgb(17, 17, 113);
+  display: flex;
+  justify-content: center;
+  margin-top: 9rem;
+}
+.todo{
+  border-radius: 5px;
+  width: 70vh;
+  background: rgb(168, 166, 166);
+  padding-bottom: 5px;
+}
+button {
+  height: 40px;
+  width: 78px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  margin: 7px;
+}
+input {
+  height: 35px;
+  width: 50vh;
+  margin: 5px 0px 0px 17px;
+  border: 2px solid rgb(82, 80, 80);
+  border-radius: 5px;
+  border: none;
+}
+ul li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background: #9acd32;
+  margin: 2px 12px 4px -22px;
+  border-radius: 5px;
+  align-items: center;
+  padding-left: 25px;
+}
+
+ul li span{
+  font-size: 20px;
+  width: 20vh;
+  border-radius: 5px;
+  margin-left: -20px;
+}
+ul li .btn{
+  background-color: red;
+  align-items: right;
+}
+.listdiv{
+  border-bottom: 10px;
+}
